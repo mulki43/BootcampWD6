@@ -1,0 +1,222 @@
+body {
+    background: linear-gradient(to right, #bbbbbb, #ffffff, #35a7ff48);
+    background-blend-mode: overlay;
+    overflow-x:hidden ;
+}
+
+.nav-active {
+    font-weight: 500;
+}
+
+.search-container {
+    position: sticky;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: rgba(85, 85, 85, 0.185);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    padding: 5px 15px;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    padding: 5px;
+}
+
+.search-input::placeholder {
+    color: rgb(121, 121, 121);
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.nav-transparant {
+    transition: background-color 0.2s ease-in-out;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+}
+
+.scrolled {
+    background: white !important;
+    backdrop-filter: blur(0px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.drop-transparant {
+    background-color: rgb(17, 100, 255);
+    backdrop-filter: blur(2px);
+    box-shadow: #ffffff;
+}
+
+.category-css {
+    color: #f8f8f8;
+    font-weight: 500;
+}
+
+.judul-web {
+    line-height: 80%;
+    font-family: "Helvetica", "Arial", sans-serif !important;
+    font-weight: 700;
+    font-size: 14px;
+    color: #555555;
+}
+
+.logo-filter {
+    filter: sepia(80%);
+    filter: invert(100%);
+    filter: hue-rotate(180deg);
+    filter: brightness(150%);
+    filter: contrast(200%);
+}
+
+footer {
+    background: linear-gradient(to right ,#043f99, hwb(216 5% 5%));
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+body * {
+    border: 0px solid red;
+}
+
+.empat-tahap-1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-group {
+    width: 1300px;
+}
+
+.isi-footer {
+    padding: 0px 40px 0px 40px;
+}
+
+.lokasi-kami {
+    margin-top: -5px;
+    margin-left: -200px;
+}
+
+.service-1 {
+    width: 300px;
+}
+.service-1 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-1-merah:hover {
+    transform: scale(1.1);
+    .service-1 {
+    transition: transform 0.3s ease-in-out; }
+    filter: drop-shadow(0px 0px 15px rgba(255, 0, 0, 0.904));
+}
+.service-1-pink:hover {
+    transform: scale(1.1);
+    .service-1 {
+    transition: transform 0.3s ease-in-out; }
+    filter: drop-shadow(0px 0px 15px rgba(255, 0, 212, 0.904));
+}
+.service-1-hijau:hover {
+    transform: scale(1.1);
+    .service-1 {
+    transition: transform 0.3s ease-in-out; }
+    filter: drop-shadow(0px 0px 15px rgba(0, 255, 55, 0.904));
+}
+.service-1-orange:hover {
+    transform: scale(1.1);
+    .service-1 {
+    transition: transform 0.3s ease-in-out; }
+    filter: drop-shadow(0px 0px 15px rgba(255, 94, 0, 0.904));
+}
+.service-1-ungu:hover {
+    transform: scale(1.1);
+    .service-1 {
+    transition: transform 0.3s ease-in-out; }
+    filter: drop-shadow(0px 0px 15px rgba(162, 0, 255, 0.904));
+}
+
+.pricing-box {
+    -webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1) !important;
+            box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1) !important;
+    padding: 35px 50px;
+    border-radius: 20px;
+    position: relative;
+  }
+.pricing-box .plan {
+    font-size: 34px;
+  }
+  
+  .pricing-badge {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    right: 0;
+    width: 100%;
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    overflow: hidden;
+    height: 100px;
+  }
+  
+  .pricing-badge .badge {
+    float: right;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    right: -67px;
+    top: 17px;
+    position: relative;
+    text-align: center;
+    width: 200px;
+    font-size: 13px;
+    margin: 0;
+    padding: 7px 10px;
+    font-weight: 500;
+    color: #ffffff;
+    background: #fb7179;
+  }
+
+.contact-button {
+    transition: transform 0.3s ease-in-out;
+}
+.contact-button-merah:hover {
+    transform: scale(1.1);
+    .service-1 {
+    transition: transform 0.3s ease-in-out; }
+    filter: drop-shadow(0px 0px 15px rgba(255, 30, 0, 0.904));
+}
+.contact-button-kuning:hover {
+    transform: scale(1.1);
+    .service-1 {
+    transition: transform 0.3s ease-in-out; }
+    filter: drop-shadow(0px 0px 15px rgba(255, 217, 0, 0.904));
+}
+.contact-button-hijau:hover {
+    transform: scale(1.1);
+    .service-1 {
+    transition: transform 0.3s ease-in-out; }
+    filter: drop-shadow(0px 0px 15px rgba(0, 255, 64, 0.904));
+}
+
+.ini-nav {
+    color: rgb(17, 100, 255) !important;
+    font-weight: 600px;
+}
+
+.hover-text:hover {
+    color: red; /* Ubah warna saat hover */
+    content: "Inovasi\nDesign"; /* Tidak berfungsi di p, gunakan JavaScript */
+}
